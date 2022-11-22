@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 namespace EodStatus.Application;
 public static class DependencyInjection
 {
-    public static IServiceCollection AddApplicationDependencies(this IServiceCollection services)
+    public static IServiceCollection AddApplication(this IServiceCollection services)
     {
         services.AddScoped<IAuthenticationService, AuthenticationService>();
         return services;
