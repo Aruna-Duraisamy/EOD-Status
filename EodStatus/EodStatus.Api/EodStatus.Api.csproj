@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EodStatus.Contracts\EodStatus.Contracts.csproj" />
+    <ProjectReference Include="..\EodStatus.Application\EodStatus.Application.csproj" />
+    <ProjectReference Include="..\EodStatus.Infrastructure\EodStatus.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
